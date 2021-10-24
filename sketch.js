@@ -7,7 +7,7 @@ function preload() {
   jetI = loadImage("Jetimage.png");
   jet2I = loadImage("jet2.png");
   restarti = loadImage("restarticon.jpg");
-  GameOver = loadImage("GameOver.png");
+  
   dieS = loadSound("die.mp3");
   jumpS = loadSound("jump.mp3");
 }
@@ -25,7 +25,7 @@ function setup() {
   restart.addImage(restarti);
   restart.scale = 0.3;
   gameOver = createSprite(250, 130, 50, 50);
-  gameOver.addImage(GameOver);
+  
   gameOver.scale = 0.3;
   bulletG = createGroup();
   jetG = createGroup();
