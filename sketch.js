@@ -13,7 +13,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(600, 600);
   back = createSprite(300, 250, 700, 500);
   back.addImage(backgroundI);
   back.scale = 1.4;
