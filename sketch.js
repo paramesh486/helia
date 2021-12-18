@@ -13,7 +13,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(600, 600);
   back = createSprite(300, 250, 700, 500);
   back.addImage(backgroundI);
   back.scale = 1.4;
@@ -25,7 +25,7 @@ function setup() {
   restart.addImage(restarti);
   restart.scale = 0.3;
   gameOver = createSprite(250, 130, 50, 50);
-  
+  end = createSprite(100,100,100,100)
   gameOver.scale = 0.3;
   bulletG = createGroup();
   jetG = createGroup();
