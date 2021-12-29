@@ -26,6 +26,7 @@ function setup() {
   restart.scale = 0.3;
   gameOver = createSprite(250, 130, 50, 50);
   end = createSprite(100,100,100,100)
+  david = createSprite()
   gameOver.scale = 0.3;
   bulletG = createGroup();
   jetG = createGroup();
